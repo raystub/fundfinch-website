@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fundfinch: Money Skills for Real Life</title>
   <meta name="description" content="Fundfinch teaches young adults 18–25 the money skills school skipped: budgeting, credit, student loans, health insurance, investing, and retirement. Free to start, no ads, no tracking.">
+  <meta name="theme-color" content="#0A0E13">
   <meta property="og:title" content="Fundfinch: Money Skills for Real Life">
-  <meta property="og:description" content="Quick lessons and games on credit, loans, investing and retirement for ages 18–25. No ads, no tracking.">
-  <meta property="og:image" content="icon.png">
-  <link rel="icon" href="favicon.png">
+  <meta property="og:description" content="Short lessons with real numbers on credit, loans, taxes, investing and retirement for ages 18–25. No ads, no tracking.">
+  <meta property="og:image" content="https://fundfinch.app/img/home.webp">
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.png">
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,11 +18,11 @@
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="index.html"><img src="icon.png" alt="">Fundfinch</a>
+    <a class="brand" href="index.html"><img src="mark.svg" alt="">Fundfinch</a>
     <nav class="nav-links">
-      <a href="#learn" class="hide-sm">Learn</a>
-      <a href="#games" class="hide-sm">Games</a>
-      <a href="#privacy">Privacy</a>
+      <a href="#topics" class="hide-sm">Topics</a>
+      <a href="#tools" class="hide-sm">Tools</a>
+      <a href="#pricing">Pricing</a>
       <a href="support.html">Support</a>
     </nav>
   </div>
@@ -30,124 +32,145 @@
   <div class="hero">
     <div class="wrap">
       <div>
+        <p class="label">For ages 18–25</p>
         <h1>The money skills school <em>didn’t</em> teach you.</h1>
-        <p class="lead">Fundfinch covers what actually comes up at 18–25: your first budget, building credit, student loans, health insurance at 26, buying a car, and starting a 401(k) or Roth IRA. Five-minute lessons, real numbers, zero real money at risk.</p>
+        <p class="lead">Budgets, credit, student loans, taxes, health insurance at 26, and your first 401(k). Five-minute lessons with real numbers and worked examples. No real money at risk.</p>
         <div class="badges">
-          <a class="btn btn-dark" aria-disabled="true"><span class="icon">📱</span><span><small>Coming soon to the</small>App Store</span></a>
-          <a class="btn btn-dark" aria-disabled="true"><span class="icon">▶</span><span><small>Coming soon to</small>Google Play</span></a>
+          <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v16h10V4H7zm4 13h2v1.5h-2z"/></svg><span><small>Coming soon to the</small>App Store</span></a>
+          <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 6 3.5z"/></svg><span><small>Coming soon to</small>Google Play</span></a>
         </div>
-        <p class="note">Free to start · No ads · No tracking · Pro is a one-time purchase</p>
-        <div class="chips">
-          <span class="chip">💳 Credit</span><span class="chip">🎓 Student loans</span><span class="chip">🩺 Health insurance</span><span class="chip">🚗 Cars</span><span class="chip">₿ Bitcoin</span><span class="chip">🚀 401(k) &amp; Roth IRA</span>
-        </div>
+        <p class="note">Free to start · No ads · No account · Pro is a one-time purchase</p>
       </div>
 
-      <div class="phone" aria-label="Preview of the Fundfinch home screen">
-        <div class="screen">
-          <div class="s-head">
-            <div class="s-ava">🦉</div>
-            <div style="flex:1">
-              <div class="s-name">Hi, Jordan!</div>
-              <div class="s-level">Level 4 · Quarter Captain</div>
-              <div class="s-bar"><i></i></div>
-            </div>
-          </div>
-          <div class="s-row">
-            <div class="s-tile" style="background:#FFF7E0"><span>👛 Wallet</span><b>128</b></div>
-            <div class="s-tile" style="background:#E0F7EC"><span>🏦 Savings</span><b>342</b></div>
-          </div>
-          <div class="s-next"><small>▶ UP NEXT</small><b>🎁 The Employer Match: Free Money</b></div>
-          <div class="s-row">
-            <div class="s-game" style="background:#10B981"><span class="e">🤔</span>Need or Want?</div>
-            <div class="s-game" style="background:#0EA5E9"><span class="e">🌱</span>Compound Growth</div>
-          </div>
-          <div class="s-row" style="margin:0">
-            <div class="s-game" style="background:#6366F1"><span class="e">📊</span>Paycheck Planner</div>
-            <div class="s-game" style="background:#22C55E"><span class="e">📈</span>Market Simulator</div>
-          </div>
-        </div>
+      <div class="phones" aria-label="Fundfinch app screens">
+        <div class="device back"><img src="img/lesson.webp" width="660" height="1434" alt="A Fundfinch lesson card about the minimum-payment trap, with a worked example."></div>
+        <div class="device front"><img src="img/home.webp" width="660" height="1434" alt="The Fundfinch home screen showing a practice balance, a savings goal and the next lesson."></div>
       </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="wrap">
+      <div class="stat"><b>39</b><span>lessons</span></div>
+      <div class="stat"><b>14</b><span>topics</span></div>
+      <div class="stat"><b>4</b><span>practice tools</span></div>
+      <div class="stat"><b>0</b><span>ads, accounts or trackers</span></div>
     </div>
   </div>
 
   <section id="how">
     <div class="wrap">
-      <p class="eyebrow">How it works</p>
-      <h2>Learn it. Play it. Live it.</h2>
-      <p class="section-lead">Every lesson is short, every quiz explains the answer, and every point you earn becomes a real decision: spend it now, or save it and watch it grow?</p>
+      <p class="label">How it works</p>
+      <h2>Learn it, check it, practice it.</h2>
+      <p class="section-lead">Each lesson takes about three minutes. No jargon left unexplained, and no feel-good tips without the math behind them.</p>
       <div class="grid grid-3">
-        <div class="card"><div class="e">📚</div><h3>Bite-sized lessons</h3><p>Short cards explain one idea at a time with a worked example, followed by a quiz that explains every answer.</p></div>
-        <div class="card"><div class="e">🪙</div><h3>A practice account</h3><p>Points go in a practice account that pays daily compound interest, so you <em>see</em> why starting early pays.</p></div>
-        <div class="card"><div class="e">🎯</div><h3>Goals worth saving for</h3><p>Pick a milestone (first apartment, emergency fund, dream trip), set it as a goal, and save toward it.</p></div>
+        <div class="card">
+          <span class="step-n">01</span>
+          <h3>Learn with real numbers</h3>
+          <p>Short cards explain one idea at a time, each with an “In practice” example.</p>
+          <div class="example"><b>In practice</b>$3,000 at 24% APR, paying only the minimum, takes roughly 12 years and over $7,400 total.</div>
+        </div>
+        <div class="card">
+          <span class="step-n">02</span>
+          <h3>Check your understanding</h3>
+          <p>Scenario questions, not trivia. Every answer comes with the reasoning, so a wrong pick still teaches you something.</p>
+        </div>
+        <div class="card">
+          <span class="step-n">03</span>
+          <h3>Practice with play money</h3>
+          <p>Earn points, keep them in a practice account that pays daily compound interest, and save toward milestones like a first apartment or an emergency fund.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="learn" class="alt">
+  <section id="topics" class="alt">
     <div class="wrap">
-      <p class="eyebrow">39 lessons · 14 topics</p>
+      <p class="label">39 lessons · 14 topics</p>
       <h2>Everything adulting throws at your wallet</h2>
-      <p class="section-lead">From your first paycheck to your first 401(k), with current numbers like 2026 contribution limits.</p>
-      <div class="grid grid-5">
-        <div class="card world"><div class="e">🪙</div><h3>Money Basics</h3></div>
-        <div class="card world"><div class="e">🐷</div><h3>Saving</h3></div>
-        <div class="card world"><div class="e">🛒</div><h3>Smart Spending</h3></div>
-        <div class="card world"><div class="e">📊</div><h3>Budgeting</h3></div>
-        <div class="card world"><div class="e">🏦</div><h3>Banks &amp; Interest</h3></div>
-        <div class="card world"><div class="e">📈</div><h3>Investing</h3></div>
-        <div class="card world"><div class="e">₿</div><h3>Bitcoin</h3></div>
-        <div class="card world"><div class="e">💳</div><h3>Credit &amp; Debt</h3></div>
-        <div class="card world"><div class="e">🎓</div><h3>Student Loans</h3></div>
-        <div class="card world"><div class="e">💼</div><h3>Paychecks &amp; Taxes</h3></div>
-        <div class="card world"><div class="e">🩺</div><h3>Health Insurance</h3></div>
-        <div class="card world"><div class="e">🚗</div><h3>Cars</h3></div>
-        <div class="card world"><div class="e">🚀</div><h3>Retirement</h3></div>
-        <div class="card world"><div class="e">🛡️</div><h3>Money Safety</h3></div>
+      <p class="section-lead">From your first paycheck to your first 401(k), with current figures like 2026 tax brackets and contribution limits.</p>
+      <div class="topics">
+        <div class="topic"><span class="n">01</span><h3>Money Basics</h3><p>Checking, debit, and payment apps</p><span class="count">1 lesson</span></div>
+        <div class="topic"><span class="n">02</span><h3>Saving</h3><p>Build the safety net first</p><span class="count">1 lesson</span></div>
+        <div class="topic"><span class="n">03</span><h3>Smart Spending</h3><p>How marketing gets you to spend</p><span class="count">1 lesson</span></div>
+        <div class="topic"><span class="n">04</span><h3>Budgeting</h3><p>Give every dollar a job</p><span class="count">2 lessons</span></div>
+        <div class="topic"><span class="n">05</span><h3>Banks &amp; Interest</h3><p>APY, compounding, and where to keep cash</p><span class="count">3 lessons</span></div>
+        <div class="topic"><span class="n">06</span><h3>Investing</h3><p>Grow your money, skip the hype</p><span class="count">6 lessons</span></div>
+        <div class="topic"><span class="n">07</span><h3>Bitcoin</h3><p>How it works, how to hold it, and the risks</p><span class="count">4 lessons</span></div>
+        <div class="topic"><span class="n">08</span><h3>Credit &amp; Debt</h3><p>Build credit and borrow on your terms</p><span class="count">5 lessons</span></div>
+        <div class="topic"><span class="n">09</span><h3>Student Loans</h3><p>Borrow less, repay smart</p><span class="count">2 lessons</span></div>
+        <div class="topic"><span class="n">10</span><h3>Paychecks &amp; Taxes</h3><p>What you earn and what you keep</p><span class="count">2 lessons</span></div>
+        <div class="topic"><span class="n">11</span><h3>Health Insurance</h3><p>Staying covered at 26 and beyond</p><span class="count">2 lessons</span></div>
+        <div class="topic"><span class="n">12</span><h3>Cars</h3><p>Buy, finance, or lease without regret</p><span class="count">2 lessons</span></div>
+        <div class="topic"><span class="n">13</span><h3>Retirement</h3><p>401(k)s, Roth IRAs, and paying Future You</p><span class="count">7 lessons</span></div>
+        <div class="topic"><span class="n">14</span><h3>Money Safety</h3><p>The scams aimed at people your age</p><span class="count">1 lesson</span></div>
       </div>
     </div>
   </section>
 
-  <section id="games">
+  <section id="tools">
     <div class="wrap">
-      <p class="eyebrow">Practice tools</p>
-      <h2>Practice with play money</h2>
-      <p class="section-lead">Four tools turn big ideas into hands-on practice, with no real money ever involved. The Paycheck Planner is free; Pro unlocks the rest.</p>
-      <div class="grid grid-2">
-        <div class="card game" style="background:#10B981"><div class="e">🤔</div><h3>Need or Want?</h3><p>Sort real spending decisions fast, and see where the gray areas are.</p></div>
-        <div class="card game" style="background:#0EA5E9"><div class="e">🌱</div><h3>Compound Growth</h3><p>Change monthly savings, return, and years to see what starting at 22 vs. 32 really costs.</p></div>
-        <div class="card game" style="background:#6366F1"><div class="e">📊</div><h3>Paycheck Planner</h3><p>Budget a first-job paycheck with rent and a student loan, then survive a surprise bill.</p></div>
-        <div class="card game" style="background:#22C55E"><div class="e">📈</div><h3>Market Simulator</h3><p>Invest $1,000 of play money across made-up tickers and an index fund over 12 months. Discover why diversification matters.</p></div>
+      <p class="label">Practice tools</p>
+      <h2>Try it before it’s your real money</h2>
+      <p class="section-lead">Four hands-on tools turn the lessons into decisions. Everything uses play money and made-up companies.</p>
+      <div class="tools">
+        <div class="tool-shot"><div class="device"><img src="img/planner.webp" width="660" height="1434" alt="The Paycheck Planner: a $3,200 take-home paycheck split across rent, groceries, a student loan and savings."></div></div>
+        <div class="tool-list">
+          <div class="card tool"><h3>Paycheck Planner <span class="pill free">FREE</span></h3><p>Budget a $3,200 first-job paycheck with rent and a student loan, then handle a surprise bill.</p></div>
+          <div class="card tool"><h3>Market Simulator <span class="pill">PRO</span></h3><p>Invest $1,000 across single stocks and an index fund over 12 months of news. See why diversification matters.</p></div>
+          <div class="card tool"><h3>Compound Growth <span class="pill">PRO</span></h3><p>Change monthly savings, return and years to see what starting at 22 instead of 32 is worth.</p></div>
+          <div class="card tool"><h3>Need or Want? <span class="pill">PRO</span></h3><p>Sort real spending decisions fast, including the gray areas.</p></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="alt ages">
+  <section id="pricing" class="alt">
     <div class="wrap">
-      <p class="eyebrow">Made for 18–25</p>
-      <h2>The stuff that actually comes up</h2>
-      <p class="section-lead">Every lesson is written for adults starting out on their own. No baby steps, no jargon left unexplained.</p>
-      <div class="grid grid-3">
-        <div class="card"><h3>Starting out</h3><p>Your first real budget.</p><ul><li>The 50/30/20 budget</li><li>Paychecks: gross vs. net</li><li>Emergency funds</li><li>High-yield savings &amp; CDs</li></ul></div>
-        <div class="card"><h3>Borrowing smart</h3><p>Debt without the regret.</p><ul><li>Building credit from zero</li><li>Student loans &amp; repayment</li><li>Buy Now, Pay Later</li><li>Car loans vs. leases</li></ul></div>
-        <div class="card"><h3>Building wealth</h3><p>Start early, skip the hype.</p><ul><li>401(k)s &amp; the employer match</li><li>Roth vs. traditional</li><li>Index funds &amp; diversification</li><li>Bitcoin: how it works &amp; how to hold it</li><li>Crypto &amp; meme-stock risks</li></ul></div>
+      <p class="label">Pricing</p>
+      <h2>Free to start. Pay once if you want it all.</h2>
+      <p class="section-lead">No subscription, no ads, no upsells inside lessons.</p>
+      <div class="plans">
+        <div class="card plan">
+          <h3>Free</h3>
+          <div class="price num">$0</div>
+          <p class="tag">Everything you need to get started.</p>
+          <ul class="ticks">
+            <li>The first lesson in all 14 topics</li>
+            <li>The Paycheck Planner</li>
+            <li>Practice account, milestones and streaks</li>
+            <li>No ads, ever</li>
+          </ul>
+        </div>
+        <div class="card plan pro">
+          <h3>Fundfinch Pro</h3>
+          <div class="price num">$9.99<small>one time</small></div>
+          <p class="tag">Everything in Fundfinch, yours to keep.</p>
+          <ul class="ticks">
+            <li>All 39 lessons across 14 topics</li>
+            <li>All four practice tools</li>
+            <li>New topics and yearly updates to limits and rates included</li>
+            <li>Restore on a new phone with the same Apple or Google account</li>
+          </ul>
+        </div>
       </div>
+      <p class="fine">US price shown. Prices in other countries are set by the App Store and Google Play.</p>
     </div>
   </section>
 
   <section id="privacy">
-    <div class="wrap parents">
+    <div class="wrap split">
       <div>
-        <p class="eyebrow">Privacy</p>
+        <p class="label">Privacy</p>
         <h2>Your money questions stay yours</h2>
-        <p class="section-lead" style="margin-bottom:0">No sign-up, no bank linking, nothing to track. Fundfinch is for learning, and everything you do stays on your phone.</p>
+        <p class="section-lead" style="margin-bottom:0">No sign-up and no bank linking. Fundfinch is for learning, and what you do in it stays on your phone. Read the <a href="privacy.html">privacy policy</a>.</p>
       </div>
-      <ul class="checks">
+      <ul class="rows">
         <li>No ads, ever</li>
-        <li>Free to start. Fundfinch Pro is one optional purchase, never a subscription</li>
         <li>No accounts or bank connections</li>
-        <li>No tracking or data collection. Progress stays on your device.</li>
+        <li>No tracking or analytics. Progress stays on your device.</li>
+        <li>Purchases handled by Apple or Google. We never see your payment details.</li>
         <li>General education, not personalized financial advice</li>
-        <li>New lessons added through free updates</li>
       </ul>
     </div>
   </section>
@@ -156,10 +179,10 @@
     <div class="wrap">
       <div class="cta">
         <h2>Get your money together</h2>
-        <p>Free on iPhone, iPad, and Android. Coming soon.</p>
+        <p>Coming soon to iPhone, iPad and Android.</p>
         <div class="badges">
-          <a class="btn btn-dark" aria-disabled="true"><span class="icon">📱</span><span><small>Coming soon to the</small>App Store</span></a>
-          <a class="btn btn-dark" aria-disabled="true"><span class="icon">▶</span><span><small>Coming soon to</small>Google Play</span></a>
+          <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v16h10V4H7zm4 13h2v1.5h-2z"/></svg><span><small>Coming soon to the</small>App Store</span></a>
+          <a class="store" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 6 3.5z"/></svg><span><small>Coming soon to</small>Google Play</span></a>
         </div>
       </div>
     </div>
@@ -169,7 +192,7 @@
 <footer>
   <div class="wrap">
     <span>© 2026 Swipefinch LLC</span>
-    <nav class="social" aria-label="Fundfinch on social media"><a href="https://instagram.com/fundfinch" rel="noopener">Instagram</a><a href="https://x.com/fundfinch" rel="noopener">X</a><a href="https://www.tiktok.com/@fundfinch" rel="noopener">TikTok</a></nav>
+    <nav aria-label="Fundfinch on social media"><a href="https://instagram.com/fundfinch" rel="noopener">Instagram</a><a href="https://x.com/fundfinch" rel="noopener">X</a><a href="https://www.tiktok.com/@fundfinch" rel="noopener">TikTok</a></nav>
     <nav><a href="privacy.html">Privacy Policy</a><a href="support.html">Support</a></nav>
   </div>
 </footer>
