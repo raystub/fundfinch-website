@@ -98,7 +98,7 @@ h2 { font-size: clamp(30px, 4vw, 44px); line-height: 1.08; letter-spacing: -0.03
 .example b { display: block; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--primary); margin-bottom: 4px; }
 
 /* Topics */
-.topics { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(7, auto); grid-auto-flow: column; column-gap: 16px; }
+.topics { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(8, auto); grid-auto-flow: column; column-gap: 16px; }
 .topic { display: grid; grid-template-columns: 40px 1fr auto; align-items: center; gap: 4px 12px; padding: 16px 20px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin-bottom: 10px; }
 .topic .n { color: var(--faint); font-size: 13px; font-variant-numeric: tabular-nums; }
 .topic h3 { margin: 0; font-size: 16px; font-weight: 600; }
